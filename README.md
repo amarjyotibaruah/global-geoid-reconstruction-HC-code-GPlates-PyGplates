@@ -8,6 +8,20 @@ The project combines plate tectonic reconstruction, subducted slab reconstructio
 
 This repository is intended as a professional portfolio project demonstrating skills in computational geoscience, deep-time tectonic modelling, mantle dynamics, scientific programming, and geophysical visualization.
 
+## Example Visualizations
+
+### 1. GPlates-Based Global Subduction Reconstruction
+
+![GPlates Reconstruction](figures/Picture1.jpg)
+
+This figure shows the workflow used to reconstruct global subduction zone geometries from 140 Ma to present day using GPlates and the plate reconstruction model of Matthews et al. (2016).
+
+GPlates was used to:
+- Visualize deep-time plate tectonic evolution
+- Identify and extract global subduction zone locations
+- Reconstruct subducted slab geometries through time
+- Generate spatial inputs for mantle circulation and geoid modelling workflows
+
 ## Scientific Motivation
 
 Density heterogeneity within the mantle contributes to geoid undulations observed at Earth’s surface. Subducted slabs represent one of the strongest sources of mantle density anomalies. However, the time evolution of the geoid signal arising from reconstructed subducted slabs remains challenging to constrain.
