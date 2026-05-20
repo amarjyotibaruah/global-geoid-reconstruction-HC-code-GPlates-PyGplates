@@ -35,7 +35,7 @@ Predicted geoid anomaly calculation
         ↓
 GMT / MATLAB / Python visualization and analysis
 ```
-
+## Supplementary Technical Results
 ## Supplementary Geoid Modelling Results
 
 The main repository README highlights the present-day geoid prediction panel as the primary showcase result. Additional time-dependent viscosity sensitivity results are documented here to show how predicted geoid patterns evolve through geological time.
