@@ -16,18 +16,21 @@ The repository is designed as a professional computational geoscience portfolio 
 
 ---
 
-# Computational Workflow Overview
+## Computational Workflow
 
-![Computational Workflow](figures/computational_geodynamics_workflow.png)
-
-Integrated workflow used for:
-- Deep-time tectonic reconstruction
-- Slab geometry reconstruction
-- Mantle density heterogeneity modelling
-- HC mantle circulation modelling
-- Geoid prediction and sensitivity analysis
-- GMT/Python/MATLAB-based scientific analysis and visualization
-
+```text
+GPlates / PyGPlates
+        ↓
+Subduction Zone Extraction
+        ↓
+Slab Reconstruction
+        ↓
+HC Mantle Circulation & Geoid Modeling
+        ↓
+GMT / Python / MATLAB Analysis
+        ↓
+Scientific Interpretation
+```
 ---
 
 # Example Visualizations
