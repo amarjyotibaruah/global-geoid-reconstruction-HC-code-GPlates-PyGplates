@@ -22,6 +22,25 @@ GPlates was used to:
 - Reconstruct subducted slab geometries through time
 - Generate spatial inputs for mantle circulation and geoid modelling workflows
 
+### 2. Deep-Time Slab Reconstruction Through Geological Time
+
+![Slab Reconstruction Evolution](figures/deep_time_slab_reconstruction_evolution.png)
+
+Global subduction zone geometries were reconstructed through geological time using deep-time plate tectonic reconstruction workflows.
+
+The figure illustrates reconstructed slab configurations and associated plate kinematic evolution at:
+- 50 Ma
+- 90 Ma
+- 140 Ma
+
+The left panels show reconstructed plate motions and subduction geometries, while the right panels illustrate slab-derived mantle structures used for subsequent mantle circulation and geoid modelling.
+
+These reconstructions formed the basis for:
+- Slab density heterogeneity generation
+- Mantle circulation calculations
+- HC geoid modelling inputs
+- Deep-time mantle structure interpretation
+
 ## Scientific Motivation
 
 Density heterogeneity within the mantle contributes to geoid undulations observed at Earth’s surface. Subducted slabs represent one of the strongest sources of mantle density anomalies. However, the time evolution of the geoid signal arising from reconstructed subducted slabs remains challenging to constrain.
