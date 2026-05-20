@@ -130,3 +130,17 @@ HC mantle circulation and geoid modelling
 GMT / Python / MATLAB post-processing
         ↓
 Scientific interpretation and visualization
+```
+
+## Computational Workflow
+
+Representative workflow scripts are available in the `scripts/` directory, including:
+
+- Deep-time subduction reconstruction using PyGPlates
+- Slab geometry generation
+- Global slab grid preparation
+- HC mantle circulation preprocessing
+- Geoid sensitivity analysis
+- GMT-based visualization workflows
+
+The workflow integrates Python, GMT, MATLAB, and geodynamic modelling tools into a reproducible computational geoscience pipeline.
