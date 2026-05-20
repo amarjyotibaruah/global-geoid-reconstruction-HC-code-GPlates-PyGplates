@@ -2,17 +2,39 @@
 
 ## Overview
 
-This repository showcases a deep-time computational geodynamics project focused on reconstructing global subduction zones and modelling the evolution of geoid anomalies through time.
+This repository showcases a deep-time computational geodynamics project focused on reconstructing global subduction zones and modelling the evolution of geoid anomalies through geological time.
 
-The project combines plate tectonic reconstruction, subducted slab reconstruction, and mantle circulation modelling using the HC convection code. The workflow was developed to investigate how upper mantle subducted slabs contribute to the long-wavelength geoid signal from the past to the present day.
+The project integrates:
+- GPlates / PyGPlates plate reconstruction workflows
+- Deep-time slab reconstruction
+- Upper mantle density heterogeneity modelling
+- HC mantle circulation simulations
+- Geoid prediction and viscosity sensitivity analysis
+- GMT / Python / MATLAB post-processing workflows
 
-This repository is intended as a professional portfolio project demonstrating skills in computational geoscience, deep-time tectonic modelling, mantle dynamics, scientific programming, and geophysical visualization.
+The repository is designed as a professional computational geoscience portfolio project demonstrating workflow development, tectonic reconstruction, mantle dynamics modelling, and scientific visualization.
 
-## Example Visualizations
+---
 
-### 1. GPlates-Based Global Subduction Reconstruction
+# Computational Workflow Overview
 
-![GPlates Reconstruction](figures/mantle_viscosity_sensitivity_and_geoid_prediction.png)
+![Computational Workflow](figures/computational_geodynamics_workflow.png)
+
+Integrated workflow used for:
+- Deep-time tectonic reconstruction
+- Slab geometry reconstruction
+- Mantle density heterogeneity modelling
+- HC mantle circulation modelling
+- Geoid prediction and sensitivity analysis
+- GMT/Python/MATLAB-based scientific analysis and visualization
+
+---
+
+# Example Visualizations
+
+## 1. GPlates-Based Global Subduction Reconstruction
+
+![GPlates Reconstruction](figures/gplates_interface_subduction_reconstruction.jpg)
 
 This figure shows the workflow used to reconstruct global subduction zone geometries from 140 Ma to present day using GPlates and the plate reconstruction model of Matthews et al. (2016).
 
@@ -22,7 +44,9 @@ GPlates was used to:
 - Reconstruct subducted slab geometries through time
 - Generate spatial inputs for mantle circulation and geoid modelling workflows
 
-### 2. Deep-Time Slab Reconstruction Through Geological Time
+---
+
+## 2. Deep-Time Slab Reconstruction Through Geological Time
 
 ![Slab Reconstruction Evolution](figures/deep_time_slab_reconstruction_evolution.png)
 
@@ -40,6 +64,8 @@ These reconstructions formed the basis for:
 - Mantle circulation calculations
 - HC geoid modelling inputs
 - Deep-time mantle structure interpretation
+
+---
 
 ## 3. Mantle Viscosity Sensitivity and Geoid Prediction
 
@@ -66,81 +92,109 @@ Correlation analyses between viscosity models demonstrate that:
 
 These experiments were used to evaluate the sensitivity of slab-driven mantle circulation and geoid prediction to radial mantle viscosity structure.
 
-The results demonstrate the integration of:
-- Deep-time tectonic reconstruction
-- Mantle density modelling
-- HC mantle circulation simulations
-- Quantitative geoid analysis
-- Computational geodynamics workflows  
+---
 
-## Scientific Motivation
+# Scientific Motivation
 
 Density heterogeneity within the mantle contributes to geoid undulations observed at Earth’s surface. Subducted slabs represent one of the strongest sources of mantle density anomalies. However, the time evolution of the geoid signal arising from reconstructed subducted slabs remains challenging to constrain.
 
 This project addresses that problem by reconstructing subduction zones through geological time and using mantle circulation modelling to predict geoid anomalies.
 
-## Project Objectives
+---
 
-- Reconstruct global subduction zone geometries through deep time
+# Project Objectives
+
+- Reconstruct global subduction zone geometries through geological time
 - Convert reconstructed slab geometries into mantle density heterogeneity models
 - Use HC mantle circulation modelling to compute geoid anomalies
-- Compare time-evolved predicted geoid patterns with present-day slab-based geoid models
-- Test the influence of different radial mantle viscosity structures on the predicted geoid
+- Compare predicted geoid patterns with present-day slab-based geoid models
+- Test the influence of radial mantle viscosity structure on geoid prediction
 
-## Tools and Technical Workflow
+---
 
-### Plate Reconstruction
+# Tools and Technical Workflow
 
+## Plate Reconstruction
 - GPlates
-- pyGPlates / PlateTectonicTools
+- PyGPlates
 - Deep-time plate reconstruction models
 - Subduction zone coordinate extraction
-- Reconstruction of slab locations through geological time
+- Slab geometry reconstruction
 
-### Mantle Circulation and Geoid Modelling
-
+## Mantle Circulation and Geoid Modelling
 - HC mantle circulation code
-- Hager and O’Connell style global mantle flow modelling
-- Spherical harmonic density input preparation
-- Radial viscosity model testing
-- Free-slip surface and core-mantle boundary conditions
+- Hager & O’Connell mantle flow modelling framework
+- Spherical harmonic density model preparation
+- Radial viscosity sensitivity testing
+- Free-slip boundary condition modelling
 
-### Post-processing and Visualization
-
+## Post-processing and Visualization
 - GMT for global map generation and geoid visualization
-- Python for data processing, plotting, and workflow automation
-- MATLAB for numerical analysis and graphing
-- Adobe Illustrator and Inkscape for publication-quality figure design
+- Python for data processing and workflow automation
+- MATLAB for numerical analysis and plotting
+- Adobe Illustrator and Inkscape for publication-quality figure preparation
 
-## General Workflow
+---
+
+# Repository Structure
 
 ```text
-Deep-time plate reconstruction
-        ↓
-Global subduction zone extraction
-        ↓
-Slab geometry reconstruction through time
-        ↓
-Conversion to gridded density heterogeneity models
-        ↓
-Spherical harmonic density model preparation
-        ↓
-HC mantle circulation and geoid modelling
-        ↓
-GMT / Python / MATLAB post-processing
-        ↓
-Scientific interpretation and visualization
+docs/
+    Supplementary technical documentation and extended results
+
+figures/
+    Workflow diagrams, reconstruction figures, and geoid results
+
+scripts/
+    Computational workflow scripts for reconstruction, density modelling,
+    geoid analysis, and visualization
+
+data/
+    Metadata and sample input files
+
+outputs/
+    Representative processed outputs and figures
 ```
 
-## Computational Workflow
+---
+
+# Computational Workflow Scripts
 
 Representative workflow scripts are available in the `scripts/` directory, including:
-
 - Deep-time subduction reconstruction using PyGPlates
-- Slab geometry generation
-- Global slab grid preparation
+- Slab geometry reconstruction
+- Global slab grid generation
 - HC mantle circulation preprocessing
 - Geoid sensitivity analysis
 - GMT-based visualization workflows
 
 The workflow integrates Python, GMT, MATLAB, and geodynamic modelling tools into a reproducible computational geoscience pipeline.
+
+---
+
+# Skills Demonstrated
+
+- Deep-time tectonic reconstruction
+- Computational geodynamics
+- Mantle circulation modelling
+- Geoid anomaly prediction
+- Scientific programming and workflow automation
+- GMT/Python/MATLAB post-processing
+- Scientific visualization and figure preparation
+- Geophysical interpretation and modelling
+
+---
+
+# Notes
+
+This repository contains selected materials intended to demonstrate computational workflows, modelling methodology, and scientific visualization capability.
+
+Full unpublished datasets, production outputs, and manuscript-sensitive files are not included.
+
+---
+
+# Author
+
+**Amar Jyoti Baruah**  
+PhD Researcher – Computational Geodynamics  
+University of Alberta
