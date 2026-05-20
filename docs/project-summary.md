@@ -34,3 +34,32 @@ HC mantle circulation modelling
 Predicted geoid anomaly calculation
         ↓
 GMT / MATLAB / Python visualization and analysis
+```
+
+## Supplementary Geoid Modelling Results
+
+The main repository README highlights the present-day geoid prediction panel as the primary showcase result. Additional time-dependent viscosity sensitivity results are documented here to show how predicted geoid patterns evolve through geological time.
+
+### Viscosity Sensitivity at 140 Ma and 100 Ma
+
+![Viscosity Sensitivity 140 Ma and 100 Ma](../figures/mantle_viscosity_and_geoid_prediction1.png)
+
+This panel shows predicted geoid anomalies generated using different radial mantle viscosity structures at 140 Ma and 100 Ma.
+
+These results demonstrate:
+- How slab-derived mantle density heterogeneity influences long-wavelength geoid structure during early reconstruction stages
+- How different viscosity models affect predicted geoid amplitude and spatial distribution
+- The importance of testing mantle rheology when interpreting geoid predictions from reconstructed slabs
+
+### Viscosity Sensitivity at 60 Ma and 20 Ma
+
+![Viscosity Sensitivity 60 Ma and 20 Ma](../figures/mantle_viscosity_and_geoid_prediction2.png)
+
+This panel shows predicted geoid anomalies generated using different radial mantle viscosity structures at 60 Ma and 20 Ma.
+
+These results demonstrate:
+- The persistence of large-scale geoid patterns through later reconstruction stages
+- Time-dependent changes in predicted geoid structure as slab distributions evolve
+- The sensitivity of regional geoid anomalies to mantle viscosity structure
+
+Together, these supplementary panels support the main present-day result by showing that the modelling workflow can track geoid evolution across multiple geological time steps.
