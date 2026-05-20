@@ -34,7 +34,7 @@ Integrated workflow used for:
 
 ## 1. GPlates-Based Global Subduction Reconstruction
 
-![GPlates Reconstruction](figures/gplates_interface_subduction_reconstruction.jpg)
+![GPlates Reconstruction](figures/gplates_interface_subduction_reconstruction.png)
 
 This figure shows the workflow used to reconstruct global subduction zone geometries from 140 Ma to present day using GPlates and the plate reconstruction model of Matthews et al. (2016).
 
