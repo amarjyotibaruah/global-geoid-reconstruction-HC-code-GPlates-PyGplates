@@ -41,6 +41,38 @@ These reconstructions formed the basis for:
 - HC geoid modelling inputs
 - Deep-time mantle structure interpretation
 
+## 3. Mantle Viscosity Sensitivity and Geoid Prediction
+
+![Viscosity Sensitivity](figures/mantle_viscosity_sensitivity_and_geoid_prediction.png)
+
+Different radial mantle viscosity structures were tested using the HC mantle circulation model to investigate their influence on predicted global geoid anomalies through geological time.
+
+The figure compares predicted geoid structures generated using multiple viscosity configurations, including:
+- visc.sh08
+- visc.d
+- visc.f
+
+at different geological stages, including:
+- 140 Ma
+- 100 Ma
+- 60 Ma
+- 20 Ma
+- Present day
+
+Correlation analyses between viscosity models demonstrate that:
+- Large-scale geoid structure remains broadly consistent across different viscosity configurations
+- Mantle rheology strongly influences anomaly amplitude and spatial distribution
+- Slab-derived mantle density heterogeneity plays a dominant role in long-wavelength geoid evolution
+
+These experiments were used to evaluate the sensitivity of slab-driven mantle circulation and geoid prediction to radial mantle viscosity structure.
+
+The results demonstrate the integration of:
+- Deep-time tectonic reconstruction
+- Mantle density modelling
+- HC mantle circulation simulations
+- Quantitative geoid analysis
+- Computational geodynamics workflows  
+
 ## Scientific Motivation
 
 Density heterogeneity within the mantle contributes to geoid undulations observed at Earth’s surface. Subducted slabs represent one of the strongest sources of mantle density anomalies. However, the time evolution of the geoid signal arising from reconstructed subducted slabs remains challenging to constrain.
